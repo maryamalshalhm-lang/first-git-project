@@ -1,0 +1,11 @@
+---
+title: "01-plot"
+format: html
+---
+
+```{r}
+library(tidyverse)
+
+ggplot(mtcars, aes(x=hp, y=mpg, color=cyl)) + geom_point(size=3)
+```
+
